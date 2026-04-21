@@ -29,6 +29,8 @@ backend/.env
 frontend/.env.local
 backend/.env.*
 frontend/.env.*
+!backend/.env.example
+!frontend/.env.example
 
 # Tooling
 .DS_Store
