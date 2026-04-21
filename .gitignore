@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+
+# Local data and databases
+*.db
+*.sqlite3
+backend/aegis.db
+
+# Logs
+*.log
+
+# Node
+node_modules/
+.next/
+frontend/.next/
+frontend/node_modules/
+
+# Env
+.env
+backend/.env
+frontend/.env.local
+backend/.env.*
+frontend/.env.*
+
+# Tooling
+.DS_Store
+Thumbs.db
+*.swp
+
+# OS
