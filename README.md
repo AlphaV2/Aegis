@@ -208,6 +208,7 @@ curl -X POST http://localhost:8000/spend ^
 - [Testing and Coverage](docs/testing-and-coverage.md)
 - [Developer Technical Reference](docs/developer-technical-reference.md)
 - [GitHub Security Guidance](docs/github-security.md)
+- [Release Checklist](docs/release-checklist.md)
 
 ## Production Notes
 - Use PostgreSQL and Redis in all deployed environments.

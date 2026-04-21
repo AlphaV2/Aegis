@@ -127,5 +127,5 @@ Spend call security gate order:
 
 ### Local Development Modes
 
-- Production-only runtime expects PostgreSQL + Redis.
-- Use the test suite for isolated SQLite coverage only.
+- Production runtime requires PostgreSQL + Redis.
+- Unit and integration tests use isolated SQLite fixtures only.

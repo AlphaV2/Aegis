@@ -8,6 +8,8 @@ Backend launch command:
 
 ```bash
 cd backend
+set DATABASE_URL=postgresql+asyncpg://<user>:<password>@<host>:5432/<db>
+set REDIS_URL=redis://<host>:6379/0
 uvicorn app.main:app --reload --port 8000
 ```
 
