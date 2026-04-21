@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at top right, #1d2640 0%, #0b0b0c 45%);
+  color: #ffffff;
+  font-family: ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif;
+}
+
+.card {
+  background: #111113;
+  border: 1px solid #1e1e23;
+  border-radius: 10px;
+}
+
+.input {
+  width: 100%;
+  background: #0f0f11;
+  border: 1px solid #26262d;
+  color: #fff;
+  border-radius: 8px;
+  padding: 0.65rem 0.8rem;
+}
+
+.btn {
+  background: #4f8cff;
+  color: #fff;
+  border: 0;
+  border-radius: 8px;
+  padding: 0.6rem 0.95rem;
+  font-weight: 600;
+}
